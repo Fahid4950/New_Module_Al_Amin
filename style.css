@@ -1,3 +1,40 @@
-h3{
-    background-color: aquamarine;
+
+
+body{
+    font-family: 'Bitter', serif;
+    margin: 0;
+    
+}
+h1{
+    font-size: 50px;
+}
+.w{
+    color: brown;
+}
+section{
+    display: flex;
+   
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(yellow,tomato);
+	padding: 10px  40px;
+	color:whitesmoke;
+	font-weight:700; 
+	border-radius:5px;
+
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
